@@ -1,0 +1,15 @@
+/* Trumps: Utilidades y reglas de importancia alta (override) */
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .video-section {
+        margin-right: 0;
+    }
+
+    .related-videos {
+        margin-top: 20px;
+    }
+}

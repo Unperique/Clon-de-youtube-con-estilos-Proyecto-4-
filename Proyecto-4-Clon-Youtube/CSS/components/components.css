@@ -1,0 +1,173 @@
+header img {
+    height: 50px;
+    margin: 5px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: 1px solid var(--border-color);
+    background-color: #f8f8f8;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.video-section iframe {
+    width: 100%;
+    height: 315px; /* Ajuste de la altura para un video de relación de aspecto 16:9 */
+    border: none;
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.video-info h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.video-info p {
+    margin: 10px 0;
+    color: var(--secondary-color);
+}
+
+.video-actions button {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    background-color: #f8f8f8;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.like-dislike span {
+    margin: 0 5px;
+    color: #ccc;
+}
+
+.video-description p {
+    font-size: 15px;
+    color: #000000;
+    background-color: #f0ecec;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.related-videos .video {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+    align-items: center; /* Alinea el ícono y el texto verticalmente */
+}
+
+.related-videos img {
+    width: 150px; /* Aumenta el tamaño de las imágenes */
+    height: auto;
+    margin-right: 15px; /* Ajusta el espaciado entre el ícono y el texto */
+}
+
+.related-videos p {
+    margin: 0; /* Elimina los márgenes por defecto del párrafo */
+    line-height: 1.5; /* Mejora la legibilidad del texto */
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section strong {
+    font-weight: bold;
+}
+
+section time {
+    font-size: 0.9em;
+    color: var(--secondary-color);
+}
+
+section p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+footer img {
+    margin-bottom: 10px;
+}
+
+footer label, footer select, footer p, footer ul {
+    margin: 5px;
+}
+
+input, button {
+    font-family: var(--font-family);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin: 5px 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.comment svg {
+    width: 50px; /* Tamaño del ícono de perfil */
+    height: 50px;
+    fill: #666; /* Color del ícono */
+    margin-right: 10px; /* Espacio entre el ícono y el contenido del comentario */
+}
+
+.user-info h4 {
+    margin: 0;
+    font-size: 16px; /* Ajustar tamaño del nombre de usuario según sea necesario */
+}
+
+.user-info span {
+    color: #888; /* Color del nombre de usuario (opcional) */
+}
+
+.comment-content p {
+    margin: 0;
+    line-height: 1.4; /* Ajustar interlineado del comentario según sea necesario */
+    font-size: 14px; /* Ajustar tamaño de fuente del comentario según sea necesario */
+}
+
+.feedback-icons svg {
+    width: 24px; /* Tamaño de los íconos de like, dislike y opciones */
+    height: 24px;
+    fill: #666; /* Color de los íconos */
+    margin-right: 10px; /* Espacio entre los íconos */
+}

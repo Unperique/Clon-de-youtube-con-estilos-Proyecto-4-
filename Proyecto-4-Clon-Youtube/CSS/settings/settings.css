@@ -1,0 +1,10 @@
+/* Settings: Variables */
+:root {
+    --font-family: Arial, sans-serif;
+    --background-color: #f9f9f9;
+    --primary-color: #333;
+    --secondary-color: #666;
+    --border-color: #ccc;
+    --header-background: #fff;
+    --header-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

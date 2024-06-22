@@ -1,0 +1,45 @@
+/* Generic: Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--header-background);
+    padding: 10px 20px;
+    box-shadow: var(--header-box-shadow);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px;
+}
